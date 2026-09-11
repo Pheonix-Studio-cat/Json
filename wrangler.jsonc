@@ -1,0 +1,9 @@
+{
+  // The name here MUST match the Worker name in the Cloudflare dashboard,
+  // otherwise the build fails. See README.md.
+  "name": "json-api",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-09-11",
+  "observability": { "enabled": true }
+  // No secrets and no environment variables: this Worker serves public data.
+}
