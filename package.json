@@ -1,0 +1,14 @@
+{
+  "name": "json-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Serves a live widget.json for Widget Construction Set",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.131.0"
+  }
+}
