@@ -4,6 +4,16 @@
   "name": "json-api",
   "main": "src/worker.js",
   "compatibility_date": "2026-09-11",
+
+  // This is the address that is pasted into Widget Construction Set. It was on
+  // by default, which meant the address the widget depends on was a Cloudflare
+  // default rather than a decision recorded here. Now it is written down.
+  "workers_dev": true,
+
+  // One address per branch, so a change can be tried in the app before it is
+  // merged. Useful while the widget.json schema is still being pinned down.
+  "preview_urls": true,
+
   "observability": { "enabled": true }
   // No secrets and no environment variables: this Worker serves public data.
 }

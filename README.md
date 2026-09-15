@@ -10,11 +10,13 @@ here shows up on the Home Screen without touching the phone.
 ## The address
 
 ```
-https://json-api.<your-subdomain>.workers.dev/
-https://json-api.<your-subdomain>.workers.dev/widget.json
+https://json-api.dean-hausmann.workers.dev/widget.json
 ```
 
-Both return the same document. Paste either one into WCS.
+`/` returns the same document. Paste either one into WCS.
+
+Live since 2026-09-12. Every branch also gets its own preview address, so a
+change can be tried in the app before it is merged.
 
 | Header | Value | Why |
 | --- | --- | --- |
